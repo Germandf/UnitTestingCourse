@@ -13,7 +13,7 @@ public class ErrorLoggerTests
     [SetUp]
     public void SetUp()
     {
-        _logger = new ErrorLogger();
+        _logger = new();
     }
 
     [Test]

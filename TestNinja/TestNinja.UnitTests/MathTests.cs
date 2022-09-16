@@ -12,7 +12,7 @@ public class MathTests
     [SetUp]
     public void SetUp()
     {
-        _math = new Math();
+        _math = new();
     }
 
     [Test]

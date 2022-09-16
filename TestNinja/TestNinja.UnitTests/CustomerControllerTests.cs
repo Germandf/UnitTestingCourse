@@ -11,7 +11,7 @@ public class CustomerControllerTests
     [SetUp]
     public void SetUp()
     {
-        _customerController = new CustomerController();
+        _customerController = new();
     }
 
     [Test]
