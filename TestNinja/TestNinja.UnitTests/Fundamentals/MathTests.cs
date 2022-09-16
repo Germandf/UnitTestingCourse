@@ -2,7 +2,7 @@
 using System.Linq;
 using TestNinja.Fundamentals;
 
-namespace TestNinja.UnitTests;
+namespace TestNinja.UnitTests.Fundamentals;
 
 [TestFixture]
 public class MathTests
@@ -52,7 +52,7 @@ public class MathTests
         Assert.That(result, Does.Contain(5));
 
         // Specific - Refactor
-        Assert.That(result, Is.EquivalentTo(new[] {1, 3, 5}));
+        Assert.That(result, Is.EquivalentTo(new[] { 1, 3, 5 }));
 
         // Extras - Not necessary
         Assert.That(result, Is.Ordered);
