@@ -7,8 +7,8 @@ namespace TestNinja.UnitTests.Mocking;
 [TestFixture]
 public class VideoServiceTests
 {
-    private VideoService _videoService = null!;
     private Mock<IFileReader> _fileReader = null!;
+    private VideoService _videoService = null!;
 
     [SetUp]
     public void SetUp()
