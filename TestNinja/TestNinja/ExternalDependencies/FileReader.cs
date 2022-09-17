@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace TestNinja.Mocking;
+namespace TestNinja.ExternalDependencies;
 
 public interface IFileReader
 {

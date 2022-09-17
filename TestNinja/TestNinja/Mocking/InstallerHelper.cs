@@ -1,4 +1,5 @@
 ﻿using System.Net;
+using TestNinja.ExternalDependencies;
 
 namespace TestNinja.Mocking
 {

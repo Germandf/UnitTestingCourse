@@ -2,7 +2,7 @@
 using System.Data.Entity;
 using System.Linq;
 
-namespace TestNinja.Mocking;
+namespace TestNinja.ExternalDependencies;
 
 public interface IVideoRepository
 {
@@ -14,7 +14,7 @@ public class VideoRepository : IVideoRepository
     public List<Video> GetUnprocessedVideos()
     {
         using var context = new VideoContext();
-        
+
         var videos = context.Videos.Where(x => !x.IsProcessed).ToList();
 
         return videos;

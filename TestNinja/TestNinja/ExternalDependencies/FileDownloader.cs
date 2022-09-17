@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace TestNinja.Mocking;
+namespace TestNinja.ExternalDependencies;
 
 public interface IFileDownloader
 {

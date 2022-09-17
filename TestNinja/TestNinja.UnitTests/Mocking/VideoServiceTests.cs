@@ -1,6 +1,7 @@
 ﻿using Moq;
 using NUnit.Framework;
 using System.Collections.Generic;
+using TestNinja.ExternalDependencies;
 using TestNinja.Mocking;
 
 namespace TestNinja.UnitTests.Mocking;
