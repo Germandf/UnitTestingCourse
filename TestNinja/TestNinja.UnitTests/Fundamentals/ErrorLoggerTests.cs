@@ -1,5 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting.Logging;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using System;
 using TestNinja.Fundamentals;
 
