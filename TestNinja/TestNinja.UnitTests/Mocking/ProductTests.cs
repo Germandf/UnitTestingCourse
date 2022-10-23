@@ -15,4 +15,14 @@ public class ProductTests
 
         Assert.That(result, Is.EqualTo(70));
     }
+
+    [Test]
+    public void GetPrice_NormalCustomer_ReturnListPrice()
+    {
+        var product = new Product() { ListPrice = 100 };
+
+        var result = product.GetPrice(new Customer() { IsGold = false });
+
+        Assert.That(result, Is.EqualTo(100));
+    }
 }

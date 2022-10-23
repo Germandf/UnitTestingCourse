@@ -1,6 +1,5 @@
 ﻿using System.IO;
 using System;
-using TestNinja.Mocking;
 
 namespace TestNinja.ExternalDependencies;
 
@@ -27,5 +26,22 @@ public class StatementGenerator : IStatementGenerator
         report.ExportToPdf(filename);
 
         return filename;
+    }
+}
+
+public class HousekeeperStatementReport
+{
+    public HousekeeperStatementReport(int housekeeperOid, DateTime statementDate)
+    {
+    }
+
+    public bool HasData { get; set; }
+
+    public void CreateDocument()
+    {
+    }
+
+    public void ExportToPdf(string filename)
+    {
     }
 }
